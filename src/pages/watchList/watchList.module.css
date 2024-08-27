@@ -1,0 +1,50 @@
+.cardHeader {
+  font-size: 1.2em;
+  font-weight: 700;
+  text-align: left;
+}
+
+.cardActions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 16px;
+}
+.cardContent {
+  padding: 1em 0.5em;
+}
+.cardActions .iconButton {
+  background: none;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease-out;
+}
+
+.cardActions .iconButton:hover {
+  color: #007bff;
+}
+
+.cardActions .deleteButton {
+  color: var(--danger-color);
+}
+
+.container {
+  width: 100%;
+  background-color: transparent;
+}
+
+.filters {
+  margin-bottom: 16px;
+  width: 100%;
+}
+
+.floatButton {
+  position: fixed;
+  bottom: 2em;
+  right: 2em;
+  border-radius: 50%;
+  width: 56px;
+  height: 56px;
+  font-size: 1.5em;
+  z-index: 1000;
+}
